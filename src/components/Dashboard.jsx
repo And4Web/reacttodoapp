@@ -1,9 +1,10 @@
 import React from "react";
+import AddTask from "./tasks/AddTask";
 
 export default function Dashboard() {
   return (
     <div>
-      <h1>Dashboard</h1>
+      <AddTask />
     </div>
   );
 }
