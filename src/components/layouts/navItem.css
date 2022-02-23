@@ -1,0 +1,9 @@
+.navItem:hover {
+  /* margin: 5px; */
+  background-color: whitesmoke;
+  color: black !important;
+  border-radius: 10px;
+}
+.navLink:hover {
+  color: black !important;
+}
