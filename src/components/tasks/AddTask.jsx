@@ -19,7 +19,7 @@ export default class AddTask extends Component {
   render() {
     return (
       <>
-        <form className="m-5 " onSubmit={this.onSubmit}>
+        <form className="ms-5 me-5 " onSubmit={this.onSubmit}>
           <legend className="display-6 mb-3 fw-bold">Add Task</legend>
           <div className="mb-3">
             <label htmlFor="task" className="form-label">
