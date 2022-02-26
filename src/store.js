@@ -16,3 +16,5 @@ export const rrfProps = {
   dispatch: store.dispatch,
   createFirestoreInstance,
 };
+
+//14 miutes onwards

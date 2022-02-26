@@ -10,12 +10,12 @@ const AddTask = (task) => {
       })
       .then(() => {
         dispatch({
-          task,
           type: "ADD_TASK",
+          task,
         }).catch((err) => {
           dispatch({
-            err,
             type: "ADD_TASK_ERR",
+            err,
           });
         });
       });
